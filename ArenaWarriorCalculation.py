@@ -2,7 +2,7 @@ import random as random
 import math as math
 
 
-def WarCrit(warrior_level, damage, critchance, critdamage, atk_spd, i=1, n=1, timer=180):
+def WarCrit(warrior_level, damage, critchance, critdamage, atk_spd, i=1, n=1, timer=200):
     stage = 1
     pierce = math.floor(warrior_level / 50)
     stagehp = 500 * 1.1 ** stage
