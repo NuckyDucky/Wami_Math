@@ -33,3 +33,4 @@ def WarCrit(warrior_level, damage, critchance, critdamage, atk_spd, i=1, n=1, ti
 
 
 WarCrit(885, 1.504e10, 6848.78, 6.45, 9.06)
+#warrior level, attack, crit chance converted to decimal (/100), crit damage converted to decimal, attack speed from skills as decimal
